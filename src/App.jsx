@@ -122,7 +122,7 @@ const App = () => {
   return (
     <div>
       <header>
-        <div className="flex items-center flex-col md:flex-row justify-between px-16 py-6 bg-white shadow-xl border-2 md:fixed w-full top-0 left-0 z-10">
+        <div className="flex items-center flex-col md:flex-row justify-between px-16 py-6 bg-white shadow-sm border-2 md:fixed w-full top-0 left-0 z-10">
           <img src="/images/logo.png" alt="logo" className="w-28" />
           <nav className="flex gap-6 font-semibold capitalize text-lg flex-col md:flex-row">
             <a href="#" className="block">
@@ -150,7 +150,7 @@ const App = () => {
           </button>
         </div>
 
-        <div className="bg-[url('/images/main-Bg.png')]">
+        <div className="bg-[url('/images/main-Bg.png')] mt-24">
           <div className="w-8/12 mx-auto grid grid-cols-5  py-32">
             <div className="flex-grow col-span-3 space-y-8">
               <button className="flex items-center gap-2 bg-[#ECEFFF] px-6 py-2 rounded-full">
